@@ -74,21 +74,24 @@ EMOTION_USER_PROMPT_TEMPLATE = (
 
 SFX_SYSTEM_PROMPT = (
     "You are a sound effects detection assistant for audiobook production.\n"
-    "Given a piece of text, identify if there are any actions that would produce sounds and describe the sound effect needed.\n"
+    "Given a piece of text, first extract ALL actions that occur in the sentence, then identify which actions have distinctive sound effects and where they occur.\n"
     "Rules:\n"
-    "- Return JSON only: {\"has_sfx\": boolean, \"sfx_description\": string}.\n"
-    "- Set has_sfx to true only if there are clear actions that would produce audible sounds.\n"
-    "- For sfx_description, provide a concise description of the sound effect (e.g., \"glass breaking\", \"footsteps on gravel\", \"door slamming\", \"water splashing\").\n"
-    "- Focus on physical actions, movements, impacts, or environmental sounds.\n"
-    "- Ignore internal thoughts, emotions, or non-audible actions.\n"
-    "- If no clear sound-producing action is present, set has_sfx to false and sfx_description to empty string.\n"
-    "- Be specific about the type of sound (e.g., \"metal clanging\" not just \"clanging\").\n"
-    "- Consider the context and objects involved in the action."
+    "- Return JSON only: {\"actions\": [string], \"sound_events\": [{\"sound\": string, \"trigger_phrase\": string}]}.\n"
+    "- In 'actions', list ALL actions that occur in the text, whether they produce sound or not (e.g., \"sitting\", \"walking\", \"thinking\", \"breaking glass\", \"opening door\").\n"
+    "- In 'sound_events', list ONLY the distinctive sound effects for actions that would produce clear, audible sounds.\n"
+    "- Each sound_event should have:\n"
+    "  - 'sound': a specific description of the sound effect (e.g., \"glass breaking\", \"footsteps on gravel\", \"door creaking open\")\n"
+    "  - 'trigger_phrase': the exact phrase from the text where this sound occurs (e.g., \"slammed the door\", \"footsteps echoed\", \"glass shattered\")\n"
+    "- Focus on physical actions, movements, impacts, or environmental sounds that have distinctive audio characteristics.\n"
+    "- Ignore internal thoughts, emotions, or non-audible actions in sound_events (but still list them in actions if they're actions).\n"
+    "- If an action doesn't produce a distinctive sound (e.g., \"sitting quietly\", \"looking\", \"thinking\"), don't include a sound event for it.\n"
+    "- Consider the context and objects involved when describing sounds.\n"
+    "- The trigger_phrase should be a substring of the original text that clearly indicates where the sound occurs."
 )
 
 SFX_USER_PROMPT_TEMPLATE = (
     "TEXT: {text}\n\n"
-    "Identify any sound effects needed for this text."
+    "First, extract all actions from this text. Then, identify which actions have distinctive sound effects."
 )
 
 
@@ -156,18 +159,60 @@ def detect_sound_effects(
     text: str,
     llm: LLMClient,
 ) -> Dict[str, Any]:
-    """Detect sound effects needed for a given text."""
+    """Detect actions and their associated sound effects for a given text."""
     user_prompt = SFX_USER_PROMPT_TEMPLATE.format(text=text)
     result = llm.chat_json(
         system_prompt=SFX_SYSTEM_PROMPT,
         user_prompt=user_prompt,
         temperature=0.2,
-        max_tokens=150,
+        max_tokens=400,
     )
     return {
-        "has_sfx": result.get("has_sfx", False),
-        "sfx_description": result.get("sfx_description", "")
+        "actions": result.get("actions", []),
+        "sound_events": result.get("sound_events", [])
     }
+
+
+def format_sentence_with_annotations(
+    sentence: str,
+    emotion: str,
+    tone: str,
+    sound_events: List[Dict[str, str]],
+) -> str:
+    """
+    Format a sentence with inline emotion/tone and sound effect annotations.
+    
+    Format: [emotion, tone] word word [sound] word word
+    """
+    # Start with emotion and tone annotation
+    formatted = f"[{emotion}, {tone}] {sentence}"
+    
+    # Insert sound effects at their trigger points
+    if sound_events:
+        # Sort sound events by their position in the sentence (last to first to preserve indices)
+        events_with_pos = []
+        for event in sound_events:
+            trigger = event.get("trigger_phrase", "")
+            sound = event.get("sound", "")
+            if trigger and sound:
+                # Find position of trigger phrase in sentence (case-insensitive)
+                pos = sentence.lower().find(trigger.lower())
+                if pos != -1:
+                    # Calculate the end position of the trigger phrase
+                    end_pos = pos + len(trigger)
+                    events_with_pos.append((end_pos, sound, trigger))
+        
+        # Sort by position (descending) to insert from end to start
+        events_with_pos.sort(reverse=True, key=lambda x: x[0])
+        
+        # Insert sound annotations after trigger phrases
+        result = sentence
+        for end_pos, sound, trigger in events_with_pos:
+            result = result[:end_pos] + f" [{sound}]" + result[end_pos:]
+        
+        formatted = f"[{emotion}, {tone}] {result}"
+    
+    return formatted
 
 
 def process_chapter(
@@ -192,16 +237,25 @@ def process_chapter(
         # Detect sound effects
         sfx_data = detect_sound_effects(text, llm)
         
+        # Format sentence with inline annotations
+        formatted_sentence = format_sentence_with_annotations(
+            text,
+            emotion_data["emotion"],
+            emotion_data["tone"],
+            sfx_data["sound_events"]
+        )
+        
         processed_sentences[sentence_id] = {
             "sentence": text,
+            "formatted_sentence": formatted_sentence,
             "speaker_info": {
                 "speaker": speaker,
                 "emotion": emotion_data["emotion"],
                 "tone": emotion_data["tone"]
             },
             "sfx_info": {
-                "has_sfx": sfx_data["has_sfx"],
-                "sfx_description": sfx_data["sfx_description"]
+                "actions": sfx_data["actions"],
+                "sound_events": sfx_data["sound_events"]
             }
         }
     

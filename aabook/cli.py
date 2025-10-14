@@ -54,7 +54,7 @@ def select_output_location() -> Optional[str]:
     print("\nPlease provide output details:")
     
     while True:
-        output_dir = input("\nOutput directory: ").strip()
+        output_dir = input("\nOutput directory (filename will be asked later): ").strip()
         if not output_dir:
             print("No output directory provided. Exiting.")
             return None
@@ -171,7 +171,14 @@ def main() -> int:
         print(f"      Error extracting characters: {e}")
         return 4
 
-    print("[4/5] Labeling lines with speakers...")
+    # Wait between heavy LLM operations to avoid rate limits
+    print("\n⏳ Waiting 10 seconds before next heavy processing step...")
+    for remaining in range(10, 0, -1):
+        print(f"   {remaining} seconds remaining...", end='\r')
+        time.sleep(1)
+    print("   ✓ Ready to continue!                    ")
+
+    print("\n[4/5] Labeling lines with speakers...")
     t2 = time.perf_counter()
     try:
         lines = label_lines_with_speakers(chapter_text, characters, llm)
@@ -181,35 +188,66 @@ def main() -> int:
         print(f"      Error labeling lines: {e}")
         return 5
 
-    print("[5/7] Detecting emotions and tones...")
+    # Wait between heavy LLM operations to avoid rate limits
+    print("\n⏳ Waiting 20 seconds before next heavy processing step...")
+    for remaining in range(20, 0, -1):
+        print(f"   {remaining} seconds remaining...", end='\r')
+        time.sleep(1)
+    print("   ✓ Ready to continue!                    ")
+
+    print("\n[5/7] Detecting emotions and tones...")
     t3 = time.perf_counter()
     try:
         # Process each line to add emotion and tone detection
         processed_sentences = {}
+        total_lines = len(lines)
+        
         for i, line in enumerate(lines):
             sentence_id = f"sentence_{i+1:04d}"
             text = line["text"]
             speaker = line["speaker"]
             
+            # Progress indicator
+            if i % 10 == 0:
+                print(f"      Processing sentence {i+1}/{total_lines}...")
+            
             # Detect emotion and tone
-            from speaker_identification import detect_emotion_and_tone, detect_sound_effects
+            from speaker_identification import detect_emotion_and_tone, detect_sound_effects, format_sentence_with_annotations
             emotion_data = detect_emotion_and_tone(text, speaker, llm)
             
             # Detect sound effects
             sfx_data = detect_sound_effects(text, llm)
             
+            # Format sentence with inline annotations
+            formatted_sentence = format_sentence_with_annotations(
+                text,
+                emotion_data["emotion"],
+                emotion_data["tone"],
+                sfx_data["sound_events"]
+            )
+            
             processed_sentences[sentence_id] = {
                 "sentence": text,
+                "formatted_sentence": formatted_sentence,
                 "speaker_info": {
                     "speaker": speaker,
                     "emotion": emotion_data["emotion"],
                     "tone": emotion_data["tone"]
                 },
                 "sfx_info": {
-                    "has_sfx": sfx_data["has_sfx"],
-                    "sfx_description": sfx_data["sfx_description"]
+                    "actions": sfx_data["actions"],
+                    "sound_events": sfx_data["sound_events"]
                 }
             }
+            
+            # Add small wait every 20 sentences to avoid rate limits
+            if (i + 1) % 20 == 0 and (i + 1) < total_lines:
+                print(f"      ⏳ Brief pause (10s) after {i+1} sentences...")
+                for remaining in range(10, 0, -1):
+                    print(f"         {remaining}s remaining...", end='\r')
+                    time.sleep(1)
+                print("         ✓ Continuing...                    ")
+        
         dt3 = time.perf_counter() - t3
         print(f"      Processed {len(processed_sentences)} sentences (in {dt3:.2f}s)")
     except Exception as e:
@@ -229,7 +267,7 @@ def main() -> int:
         return 7
     
     # Count sentences with SFX
-    sfx_count = sum(1 for data in processed_sentences.values() if data["sfx_info"]["has_sfx"])
+    sfx_count = sum(1 for data in processed_sentences.values() if data["sfx_info"]["sound_events"])
     
     print("\n✅ Processing complete!")
     print(f"   Characters found: {len(characters)}")

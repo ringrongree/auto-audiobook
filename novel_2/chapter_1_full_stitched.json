@@ -1,0 +1,1150 @@
+{
+  "characters": [
+    "Sunny",
+    "Officer",
+    "Gray-haired Policeman",
+    "Narrator"
+  ],
+  "sentences": {
+    "sentence_0001": {
+      "sentence": "A frail-looking young man with pale skin and dark circles under his eyes was sitting on a rusty bench across from the police station.",
+      "formatted_sentence": "[sad, descriptive] A frail-looking young man with pale skin and dark circles under his eyes was sitting on a rusty bench across from the police station.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "sad",
+        "tone": "descriptive"
+      },
+      "sfx_info": {
+        "actions": [
+          "sitting"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0002": {
+      "sentence": "He was cradling a cup of coffee in his hands — not the cheap synthetic type slum rats like him had access to, but the real deal.",
+      "formatted_sentence": "[hopeful, descriptive] He was cradling a cup of coffee in his hands — not the cheap synthetic type slum rats like him had access to, but the real deal.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "hopeful",
+        "tone": "descriptive"
+      },
+      "sfx_info": {
+        "actions": [
+          "cradling"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0003": {
+      "sentence": "This cup of plant-based coffee, usually available only to higher rank citizens, had cost most of his savings.",
+      "formatted_sentence": "[anxious, matter-of-fact] This cup of plant-based coffee, usually available only to higher rank citizens, had cost most of his savings.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "anxious",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "cost"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0004": {
+      "sentence": "But on this particular day, Sunny decided to pamper himself.",
+      "formatted_sentence": "[content, narrative] But on this particular day, Sunny decided to pamper himself.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "content",
+        "tone": "narrative"
+      },
+      "sfx_info": {
+        "actions": [
+          "decided",
+          "pamper"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0005": {
+      "sentence": "After all, his life was coming to an end.",
+      "formatted_sentence": "[sad, serious] After all, his life was coming to an end.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "sad",
+        "tone": "serious"
+      },
+      "sfx_info": {
+        "actions": [
+          "coming to an end"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0006": {
+      "sentence": "Enjoying the warmth of the luxurious drink, he raised the cup and savored the aroma.",
+      "formatted_sentence": "[content, descriptive] Enjoying the warmth of the luxurious drink, he raised the cup and savored the aroma.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "content",
+        "tone": "descriptive"
+      },
+      "sfx_info": {
+        "actions": [
+          "enjoying",
+          "raised",
+          "savored"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0007": {
+      "sentence": "Then, tentatively, he took a small sip… and immediately grimaced.",
+      "formatted_sentence": "[disgusted, narrative] Then, tentatively, he took a small sip… and immediately grimaced.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "disgusted",
+        "tone": "narrative"
+      },
+      "sfx_info": {
+        "actions": [
+          "took a small sip",
+          "grimaced"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0008": {
+      "sentence": "Ah! So bitter!",
+      "formatted_sentence": "[disgusted, informal] Ah! So bitter!",
+      "speaker_info": {
+        "speaker": "Sunny",
+        "emotion": "disgusted",
+        "tone": "informal"
+      },
+      "sfx_info": {
+        "actions": [
+          "exclaiming"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0009": {
+      "sentence": "Giving the cup of coffee an intense look, Sunny sighed and forced himself to drink some more.",
+      "formatted_sentence": "[frustrated, matter-of-fact] Giving the cup of coffee an intense look, Sunny sighed and forced himself to drink some more.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "frustrated",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "giving",
+          "looking",
+          "sighing",
+          "forcing",
+          "drinking"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0010": {
+      "sentence": "Bitter or not, he was determined to get his money's worth — taste buds be damned.",
+      "formatted_sentence": "[determined, matter-of-fact] Bitter or not, he was determined to get his money's worth — taste buds be damned.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "determined",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "determined",
+          "get",
+          "taste buds be damned"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0011": {
+      "sentence": "I should have bought a piece of real meat instead. Who knew actual coffee is so disgusting? Well. It's going to keep me awake, at least.",
+      "formatted_sentence": "[disgusted, matter-of-fact] I should have bought a piece of real meat instead. Who knew actual coffee is so disgusting? Well. It's going to keep me awake, at least.",
+      "speaker_info": {
+        "speaker": "Sunny",
+        "emotion": "disgusted",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "should have bought",
+          "knew",
+          "is",
+          "going",
+          "keep"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0012": {
+      "sentence": "He stared into the distance, dozing off, and then slapped himself in the face to wake up.",
+      "formatted_sentence": "[neutral, matter-of-fact] He stared into the distance, dozing off, and then slapped himself in the face [slap on skin] to wake up.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "stared",
+          "dozing off",
+          "slapped",
+          "wake up"
+        ],
+        "sound_events": [
+          {
+            "sound": "slap on skin",
+            "trigger_phrase": "slapped himself in the face"
+          }
+        ]
+      }
+    },
+    "sentence_0013": {
+      "sentence": "Tsk. What a rip-off.",
+      "formatted_sentence": "[angry, critical] Tsk. [clicking tongue] What a rip-off.",
+      "speaker_info": {
+        "speaker": "Sunny",
+        "emotion": "angry",
+        "tone": "critical"
+      },
+      "sfx_info": {
+        "actions": [
+          "tsk"
+        ],
+        "sound_events": [
+          {
+            "sound": "clicking tongue",
+            "trigger_phrase": "Tsk."
+          }
+        ]
+      }
+    },
+    "sentence_0014": {
+      "sentence": "Shaking his head and cursing, Sunny finished the coffee and stood up.",
+      "formatted_sentence": "[frustrated, matter-of-fact] Shaking his head and cursing, Sunny finished the coffee and stood up.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "frustrated",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "shaking his head",
+          "cursing",
+          "finished the coffee",
+          "stood up"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0015": {
+      "sentence": "Rich people living in this part of the city were rushing past the small park on their way to work, staring at him with strange expressions.",
+      "formatted_sentence": "[confused, observational] Rich people living in this part of the city were rushing past the small park on their way to work, staring at him with strange expressions.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "confused",
+        "tone": "observational"
+      },
+      "sfx_info": {
+        "actions": [
+          "rushing past",
+          "staring"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0016": {
+      "sentence": "Looking haggard in his cheap clothes and from the lack of sleep, unhealthily thin and pale, Sunny was indeed out of his place here.",
+      "formatted_sentence": "[sad, descriptive] Looking haggard in his cheap clothes and from the lack of sleep, unhealthily thin and pale, Sunny was indeed out of his place here.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "sad",
+        "tone": "descriptive"
+      },
+      "sfx_info": {
+        "actions": [
+          "looking",
+          "being",
+          "being out of place"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0017": {
+      "sentence": "Also, everyone seemed so tall.",
+      "formatted_sentence": "[confused, matter-of-fact] Also, everyone seemed so tall.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "confused",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "seemed"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0018": {
+      "sentence": "Watching them with a bit of envy, he tossed the cup into a garbage bin.",
+      "formatted_sentence": "[jealous, matter-of-fact] Watching them with a bit of envy, he tossed the cup into a garbage bin [cup hitting the bottom of the garbage bin].",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "jealous",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "watching",
+          "tossed"
+        ],
+        "sound_events": [
+          {
+            "sound": "cup hitting the bottom of the garbage bin",
+            "trigger_phrase": "tossed the cup into a garbage bin"
+          }
+        ]
+      }
+    },
+    "sentence_0019": {
+      "sentence": "I guess that's what three full meals a day would do to you.",
+      "formatted_sentence": "[neutral, matter-of-fact] I guess that's what three full meals a day would do to you.",
+      "speaker_info": {
+        "speaker": "Sunny",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "guess"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0020": {
+      "sentence": "The cup missed the bin by a wide margin and fell on the ground.",
+      "formatted_sentence": "[neutral, matter-of-fact] The cup missed the bin by a wide margin and fell on the ground [cup hitting the ground].",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "missed",
+          "fell"
+        ],
+        "sound_events": [
+          {
+            "sound": "cup hitting the ground",
+            "trigger_phrase": "fell on the ground"
+          }
+        ]
+      }
+    },
+    "sentence_0021": {
+      "sentence": "Sunny rolled his eyes in exasperation, walked over and picked it up before carefully putting it in the trash.",
+      "formatted_sentence": "[frustrated, matter-of-fact] Sunny rolled his eyes in exasperation, walked over and picked it up before carefully putting it in the trash.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "frustrated",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "rolled his eyes",
+          "walked over",
+          "picked it up",
+          "putting it in the trash"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0022": {
+      "sentence": "Then, with a slight grin, he crossed the street and entered the police station.",
+      "formatted_sentence": "[neutral, matter-of-fact] Then, with a slight grin, he crossed the street and entered the police station.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "grinning",
+          "crossed the street",
+          "entered the police station"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0023": {
+      "sentence": "Inside, a tired-looking officer gave him a quick glance and frowned with obvious distaste.",
+      "formatted_sentence": "[disgusted, matter-of-fact] Inside, a tired-looking officer gave him a quick glance and frowned with obvious distaste.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "disgusted",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "gave a glance",
+          "frowned"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0024": {
+      "sentence": "Are you lost, boy?",
+      "formatted_sentence": "[neutral, matter-of-fact] Are you lost, boy?",
+      "speaker_info": {
+        "speaker": "Officer",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "asking"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0025": {
+      "sentence": "Sunny looked around with curiosity, noting reinforced armor plates on the walls and poorly hidden turret nests in the ceiling.",
+      "formatted_sentence": "[curious, descriptive] Sunny looked around with curiosity, noting reinforced armor plates on the walls and poorly hidden turret nests in the ceiling.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "curious",
+        "tone": "descriptive"
+      },
+      "sfx_info": {
+        "actions": [
+          "looked around",
+          "noting"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0026": {
+      "sentence": "The officer, too, looked scruffy and mean.",
+      "formatted_sentence": "[neutral, descriptive] The officer, too, looked scruffy and mean.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "descriptive"
+      },
+      "sfx_info": {
+        "actions": [
+          "looked"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0027": {
+      "sentence": "At least police stations remained the same wherever you go.",
+      "formatted_sentence": "[neutral, matter-of-fact] At least police stations remained the same wherever you go.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "remained",
+          "go"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0028": {
+      "sentence": "Hey! I'm talking to you!",
+      "formatted_sentence": "[angry, urgent] Hey! I'm talking to you [voice speaking]!",
+      "speaker_info": {
+        "speaker": "Officer",
+        "emotion": "angry",
+        "tone": "urgent"
+      },
+      "sfx_info": {
+        "actions": [
+          "talking"
+        ],
+        "sound_events": [
+          {
+            "sound": "voice speaking",
+            "trigger_phrase": "I'm talking to you"
+          }
+        ]
+      }
+    },
+    "sentence_0029": {
+      "sentence": "Uh, no.",
+      "formatted_sentence": "[neutral, matter-of-fact] Uh, no.",
+      "speaker_info": {
+        "speaker": "Sunny",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [],
+        "sound_events": []
+      }
+    },
+    "sentence_0030": {
+      "sentence": "Then he scratched the back of his head and added:",
+      "formatted_sentence": "[neutral, matter-of-fact] Then he scratched the back of his head and added:",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "scratched"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0031": {
+      "sentence": "As demanded by the Third Special Directive, I am here to surrender myself as a carrier of the Nightmare Spell.",
+      "formatted_sentence": "[anxious, serious] As demanded by the Third Special Directive, I am here to surrender myself as a carrier of the Nightmare Spell.",
+      "speaker_info": {
+        "speaker": "Sunny",
+        "emotion": "anxious",
+        "tone": "serious"
+      },
+      "sfx_info": {
+        "actions": [
+          "surrendering"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0032": {
+      "sentence": "Are you sure you are infected? When did you start showing symptoms?",
+      "formatted_sentence": "[neutral, questioning] Are you sure you are infected? When did you start showing symptoms?",
+      "speaker_info": {
+        "speaker": "Officer",
+        "emotion": "neutral",
+        "tone": "questioning"
+      },
+      "sfx_info": {
+        "actions": [
+          "asking",
+          "showing"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0033": {
+      "sentence": "A week ago?",
+      "formatted_sentence": "[confused, questioning] A week ago?",
+      "speaker_info": {
+        "speaker": "Sunny",
+        "emotion": "confused",
+        "tone": "questioning"
+      },
+      "sfx_info": {
+        "actions": [],
+        "sound_events": []
+      }
+    },
+    "sentence_0034": {
+      "sentence": "Shit.",
+      "formatted_sentence": "[angry, informal] Shit.",
+      "speaker_info": {
+        "speaker": "Officer",
+        "emotion": "angry",
+        "tone": "informal"
+      },
+      "sfx_info": {
+        "actions": [],
+        "sound_events": []
+      }
+    },
+    "sentence_0035": {
+      "sentence": "Then, with a hurried motion, he pressed a button on his terminal and bellowed:",
+      "formatted_sentence": "[anxious, urgent] Then, with a hurried motion, he pressed a button [button press] on his terminal and bellowed [bellowing voice]:",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "anxious",
+        "tone": "urgent"
+      },
+      "sfx_info": {
+        "actions": [
+          "pressed a button",
+          "bellowed"
+        ],
+        "sound_events": [
+          {
+            "sound": "button press",
+            "trigger_phrase": "pressed a button"
+          },
+          {
+            "sound": "bellowing voice",
+            "trigger_phrase": "bellowed"
+          }
+        ]
+      }
+    },
+    "sentence_0036": {
+      "sentence": "Attention! Code Black in the lobby! I repeat! CODE BLACK!",
+      "formatted_sentence": "[anxious, urgent] Attention! Code Black in the lobby! I repeat! CODE BLACK!",
+      "speaker_info": {
+        "speaker": "Officer",
+        "emotion": "anxious",
+        "tone": "urgent"
+      },
+      "sfx_info": {
+        "actions": [
+          "alerting",
+          "repeating"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0037": {
+      "sentence": "The Nightmare Spell first appeared in the world a few decades ago.",
+      "formatted_sentence": "[neutral, informative] The Nightmare Spell first appeared in the world a few decades ago.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "informative"
+      },
+      "sfx_info": {
+        "actions": [
+          "appeared"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0038": {
+      "sentence": "Back then, the planet was just starting to recover from a series of devastating natural disasters and subsequent resource wars.",
+      "formatted_sentence": "[sad, serious] Back then, the planet was just starting to recover from a series of devastating natural disasters and subsequent resource wars.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "sad",
+        "tone": "serious"
+      },
+      "sfx_info": {
+        "actions": [
+          "starting",
+          "recovering"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0039": {
+      "sentence": "At first, the emergence of a new disease that caused millions of people to complain about constant fatigue and sleepiness did not attract a lot of attention.",
+      "formatted_sentence": "[neutral, matter-of-fact] At first, the emergence of a new disease that caused millions of people to complain about constant fatigue and sleepiness did not attract a lot of attention.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "emergence",
+          "complain",
+          "attract"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0040": {
+      "sentence": "But when they started to fall into an unnatural slumber, with no sign of waking up even days later, governments finally panicked.",
+      "formatted_sentence": "[fearful, urgent] But when they started to fall into an unnatural slumber, with no sign of waking up even days later, governments finally panicked.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "fearful",
+        "tone": "urgent"
+      },
+      "sfx_info": {
+        "actions": [
+          "started to fall",
+          "panicked"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0041": {
+      "sentence": "Of course, by then it was already too late — not that an early response could have made any difference.",
+      "formatted_sentence": "[sad, matter-of-fact] Of course, by then it was already too late — not that an early response could have made any difference.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "sad",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "was",
+          "could have made"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0042": {
+      "sentence": "When the infected started dying in their sleep, their dead bodies turning into monsters, no one was ready.",
+      "formatted_sentence": "[fearful, dramatic] When the infected started dying in their sleep, their dead bodies turning into monsters, no one was ready.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "fearful",
+        "tone": "dramatic"
+      },
+      "sfx_info": {
+        "actions": [
+          "dying",
+          "turning"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0043": {
+      "sentence": "Nightmare Creatures quickly overwhelmed national militaries, plunging the world into complete chaos.",
+      "formatted_sentence": "[fearful, dramatic] Nightmare Creatures quickly overwhelmed national militaries, plunging the world into complete chaos.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "fearful",
+        "tone": "dramatic"
+      },
+      "sfx_info": {
+        "actions": [
+          "overwhelmed",
+          "plunging"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0044": {
+      "sentence": "No one knew what the Spell was, what powers it possessed, and how to fight it.",
+      "formatted_sentence": "[confused, serious] No one knew what the Spell was, what powers it possessed, and how to fight it.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "confused",
+        "tone": "serious"
+      },
+      "sfx_info": {
+        "actions": [
+          "knew",
+          "possessed",
+          "fight"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0045": {
+      "sentence": "In the end, it was the Awakened — those who survived the first trials of the Spell and came back alive — who put a stop to its rampage.",
+      "formatted_sentence": "[determined, narrative] In the end, it was the Awakened — those who survived the first trials of the Spell and came back alive — who put a stop to its rampage.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "determined",
+        "tone": "narrative"
+      },
+      "sfx_info": {
+        "actions": [
+          "survived",
+          "came back",
+          "put a stop"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0046": {
+      "sentence": "Armed with miraculous abilities earned in their Nightmares, they restored peace and created a semblance of a new order.",
+      "formatted_sentence": "[hopeful, narrative] Armed with miraculous abilities earned in their Nightmares, they restored peace and created a semblance of a new order.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "hopeful",
+        "tone": "narrative"
+      },
+      "sfx_info": {
+        "actions": [
+          "armed",
+          "restored",
+          "created"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0047": {
+      "sentence": "Of course, it was only the first of the catastrophes brought upon by the Spell.",
+      "formatted_sentence": "[anxious, dramatic] Of course, it was only the first of the catastrophes brought upon by the Spell.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "anxious",
+        "tone": "dramatic"
+      },
+      "sfx_info": {
+        "actions": [
+          "brought"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0048": {
+      "sentence": "But as far as Sunny was concerned, none of it had anything to do with him — not until a few days ago, that is, when he first started having trouble with staying awake.",
+      "formatted_sentence": "[neutral, matter-of-fact] But as far as Sunny was concerned, none of it had anything to do with him — not until a few days ago, that is, when he first started having trouble with staying awake.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "staying awake",
+          "having trouble"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0049": {
+      "sentence": "For an average person, being chosen by the Spell was as much of a risk as an opportunity.",
+      "formatted_sentence": "[neutral, matter-of-fact] For an average person, being chosen by the Spell was as much of a risk as an opportunity.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "being chosen"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0050": {
+      "sentence": "Kids learned survival skills and fighting techniques in school, on the off chance of being infected.",
+      "formatted_sentence": "[anxious, serious] Kids learned survival skills and fighting techniques in school, on the off chance of being infected.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "anxious",
+        "tone": "serious"
+      },
+      "sfx_info": {
+        "actions": [
+          "learned",
+          "fighting",
+          "being infected"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0051": {
+      "sentence": "Well-to-do families hired private tutors to train their children in all sorts of martial arts.",
+      "formatted_sentence": "[neutral, informative] Well-to-do families hired private tutors to train their children in all sorts of martial arts.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "informative"
+      },
+      "sfx_info": {
+        "actions": [
+          "hired",
+          "train"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0052": {
+      "sentence": "Those from the Awakened clans even had access to powerful legacies, wielding inherited Memories and Echoes in their first visit to the Dream Realm.",
+      "formatted_sentence": "[curious, informative] Those from the Awakened clans even had access to powerful legacies, wielding inherited Memories and Echoes in their first visit to the Dream Realm.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "curious",
+        "tone": "informative"
+      },
+      "sfx_info": {
+        "actions": [
+          "had access",
+          "wielding",
+          "visiting"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0053": {
+      "sentence": "The richer your family was, the better your chances of surviving and becoming an Awakened were.",
+      "formatted_sentence": "[neutral, informative] The richer your family was, the better your chances of surviving and becoming an Awakened were.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "informative"
+      },
+      "sfx_info": {
+        "actions": [
+          "surviving",
+          "becoming"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0054": {
+      "sentence": "But for Sunny, who had no family to speak of and spent most of his time scrounging for food instead of going to school, being chosen by the Spell presented no opportunity at all.",
+      "formatted_sentence": "[sad, serious] But for Sunny, who had no family to speak of and spent most of his time scrounging for food instead of going to school, being chosen by the Spell presented no opportunity at all.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "sad",
+        "tone": "serious"
+      },
+      "sfx_info": {
+        "actions": [
+          "had no family",
+          "spent time scrounging for food",
+          "going to school",
+          "being chosen by the Spell"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0055": {
+      "sentence": "To him, it was basically a death sentence.",
+      "formatted_sentence": "[fearful, serious] To him, it was basically a death sentence.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "fearful",
+        "tone": "serious"
+      },
+      "sfx_info": {
+        "actions": [
+          "was"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0056": {
+      "sentence": "A few minutes later, Sunny was yawning while several policemen were busy putting him in restraints.",
+      "formatted_sentence": "[neutral, matter-of-fact] A few minutes later, Sunny was yawning while several policemen were busy putting him in restraints.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "yawning",
+          "putting in restraints"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0057": {
+      "sentence": "Soon he was fastened into a bulky chair that looked like a weird mix between a hospital bed and a torture device.",
+      "formatted_sentence": "[confused, descriptive] Soon he was fastened into a bulky chair that looked like a weird mix between a hospital bed and a torture device.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "confused",
+        "tone": "descriptive"
+      },
+      "sfx_info": {
+        "actions": [
+          "fastened",
+          "looked"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0058": {
+      "sentence": "The room they were in was situated in the basement of the police station, with thick armored walls and a formidable-looking vault door.",
+      "formatted_sentence": "[neutral, descriptive] The room they were in was situated in the basement of the police station, with thick armored walls and a formidable-looking vault door.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "descriptive"
+      },
+      "sfx_info": {
+        "actions": [
+          "situated",
+          "looking"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0059": {
+      "sentence": "Other officers were standing near the walls, with automatic rifles in their hands and grim expressions on their faces.",
+      "formatted_sentence": "[fearful, serious] Other officers were standing near the walls, with automatic rifles in their hands and grim expressions on their faces.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "fearful",
+        "tone": "serious"
+      },
+      "sfx_info": {
+        "actions": [
+          "standing",
+          "holding"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0060": {
+      "sentence": "Sunny did not particularly care about them.",
+      "formatted_sentence": "[neutral, matter-of-fact] Sunny did not particularly care about them.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "did not care"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0061": {
+      "sentence": "The only thing he could think about was how much he wanted to sleep.",
+      "formatted_sentence": "[neutral, matter-of-fact] The only thing he could think about was how much he wanted to sleep.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "think",
+          "want",
+          "sleep"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0062": {
+      "sentence": "Finally, the vault door opened, and a gray-haired policeman walked in.",
+      "formatted_sentence": "[neutral, matter-of-fact] Finally, the vault door opened [door opening], and a gray-haired policeman walked in.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "opened",
+          "walked in"
+        ],
+        "sound_events": [
+          {
+            "sound": "door opening",
+            "trigger_phrase": "the vault door opened"
+          }
+        ]
+      }
+    },
+    "sentence_0063": {
+      "sentence": "He had a seasoned face and stern eyes, looking like someone who had seen a lot of terrible things in his life.",
+      "formatted_sentence": "[sad, descriptive] He had a seasoned face and stern eyes, looking like someone who had seen a lot of terrible things in his life.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "sad",
+        "tone": "descriptive"
+      },
+      "sfx_info": {
+        "actions": [
+          "had",
+          "looking",
+          "seen"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0064": {
+      "sentence": "After checking the restraints, the policeman glanced quickly on his wristwatch and then turned to Sunny:",
+      "formatted_sentence": "[neutral, matter-of-fact] After checking the restraints, the policeman glanced quickly on his wristwatch and then turned to Sunny:",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "checking the restraints",
+          "glanced",
+          "turned"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0065": {
+      "sentence": "What's your name, kid?",
+      "formatted_sentence": "[neutral, matter-of-fact] What's your name, kid?",
+      "speaker_info": {
+        "speaker": "Gray-haired Policeman",
+        "emotion": "neutral",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "asking"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0066": {
+      "sentence": "Sunny blinked a few times, trying to concentrate, then shifted uncomfortably.",
+      "formatted_sentence": "[anxious, descriptive] Sunny blinked a few times, trying to concentrate, then shifted uncomfortably.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "anxious",
+        "tone": "descriptive"
+      },
+      "sfx_info": {
+        "actions": [
+          "blinked",
+          "trying to concentrate",
+          "shifted uncomfortably"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0067": {
+      "sentence": "Sunless.",
+      "formatted_sentence": "[sad, serious] Sunless.",
+      "speaker_info": {
+        "speaker": "Sunny",
+        "emotion": "sad",
+        "tone": "serious"
+      },
+      "sfx_info": {
+        "actions": [],
+        "sound_events": []
+      }
+    },
+    "sentence_0068": {
+      "sentence": "Sunless? That's a strange name.",
+      "formatted_sentence": "[curious, matter-of-fact] Sunless? That's a strange name.",
+      "speaker_info": {
+        "speaker": "Gray-haired Policeman",
+        "emotion": "curious",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "asking",
+          "wondering"
+        ],
+        "sound_events": []
+      }
+    },
+    "sentence_0069": {
+      "sentence": "Sunny tried to shrug, but found himself unable to move.",
+      "formatted_sentence": "[confused, matter-of-fact] Sunny tried to shrug, but found himself unable to move.",
+      "speaker_info": {
+        "speaker": "Narrator",
+        "emotion": "confused",
+        "tone": "matter-of-fact"
+      },
+      "sfx_info": {
+        "actions": [
+          "tried to shrug",
+          "found himself unable to move"
+        ],
+        "sound_events": []
+      }
+    }
+  }
+}

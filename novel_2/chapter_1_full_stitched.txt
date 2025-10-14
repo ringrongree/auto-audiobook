@@ -1,0 +1,69 @@
+[sad, descriptive] A frail-looking young man with pale skin and dark circles under his eyes was sitting on a rusty bench across from the police station.
+[hopeful, descriptive] He was cradling a cup of coffee in his hands — not the cheap synthetic type slum rats like him had access to, but the real deal.
+[anxious, matter-of-fact] This cup of plant-based coffee, usually available only to higher rank citizens, had cost most of his savings.
+[content, narrative] But on this particular day, Sunny decided to pamper himself.
+[sad, serious] After all, his life was coming to an end.
+[content, descriptive] Enjoying the warmth of the luxurious drink, he raised the cup and savored the aroma.
+[disgusted, narrative] Then, tentatively, he took a small sip… and immediately grimaced.
+[disgusted, informal] Ah! So bitter!
+[frustrated, matter-of-fact] Giving the cup of coffee an intense look, Sunny sighed and forced himself to drink some more.
+[determined, matter-of-fact] Bitter or not, he was determined to get his money's worth — taste buds be damned.
+[disgusted, matter-of-fact] I should have bought a piece of real meat instead. Who knew actual coffee is so disgusting? Well. It's going to keep me awake, at least.
+[neutral, matter-of-fact] He stared into the distance, dozing off, and then slapped himself in the face [slap on skin] to wake up.
+[angry, critical] Tsk. [clicking tongue] What a rip-off.
+[frustrated, matter-of-fact] Shaking his head and cursing, Sunny finished the coffee and stood up.
+[confused, observational] Rich people living in this part of the city were rushing past the small park on their way to work, staring at him with strange expressions.
+[sad, descriptive] Looking haggard in his cheap clothes and from the lack of sleep, unhealthily thin and pale, Sunny was indeed out of his place here.
+[confused, matter-of-fact] Also, everyone seemed so tall.
+[jealous, matter-of-fact] Watching them with a bit of envy, he tossed the cup into a garbage bin [cup hitting the bottom of the garbage bin].
+[neutral, matter-of-fact] I guess that's what three full meals a day would do to you.
+[neutral, matter-of-fact] The cup missed the bin by a wide margin and fell on the ground [cup hitting the ground].
+[frustrated, matter-of-fact] Sunny rolled his eyes in exasperation, walked over and picked it up before carefully putting it in the trash.
+[neutral, matter-of-fact] Then, with a slight grin, he crossed the street and entered the police station.
+[disgusted, matter-of-fact] Inside, a tired-looking officer gave him a quick glance and frowned with obvious distaste.
+[neutral, matter-of-fact] Are you lost, boy?
+[curious, descriptive] Sunny looked around with curiosity, noting reinforced armor plates on the walls and poorly hidden turret nests in the ceiling.
+[neutral, descriptive] The officer, too, looked scruffy and mean.
+[neutral, matter-of-fact] At least police stations remained the same wherever you go.
+[angry, urgent] Hey! I'm talking to you [voice speaking]!
+[neutral, matter-of-fact] Uh, no.
+[neutral, matter-of-fact] Then he scratched the back of his head and added:
+[anxious, serious] As demanded by the Third Special Directive, I am here to surrender myself as a carrier of the Nightmare Spell.
+[neutral, questioning] Are you sure you are infected? When did you start showing symptoms?
+[confused, questioning] A week ago?
+[angry, informal] Shit.
+[anxious, urgent] Then, with a hurried motion, he pressed a button [button press] on his terminal and bellowed [bellowing voice]:
+[anxious, urgent] Attention! Code Black in the lobby! I repeat! CODE BLACK!
+[neutral, informative] The Nightmare Spell first appeared in the world a few decades ago.
+[sad, serious] Back then, the planet was just starting to recover from a series of devastating natural disasters and subsequent resource wars.
+[neutral, matter-of-fact] At first, the emergence of a new disease that caused millions of people to complain about constant fatigue and sleepiness did not attract a lot of attention.
+[fearful, urgent] But when they started to fall into an unnatural slumber, with no sign of waking up even days later, governments finally panicked.
+[sad, matter-of-fact] Of course, by then it was already too late — not that an early response could have made any difference.
+[fearful, dramatic] When the infected started dying in their sleep, their dead bodies turning into monsters, no one was ready.
+[fearful, dramatic] Nightmare Creatures quickly overwhelmed national militaries, plunging the world into complete chaos.
+[confused, serious] No one knew what the Spell was, what powers it possessed, and how to fight it.
+[determined, narrative] In the end, it was the Awakened — those who survived the first trials of the Spell and came back alive — who put a stop to its rampage.
+[hopeful, narrative] Armed with miraculous abilities earned in their Nightmares, they restored peace and created a semblance of a new order.
+[anxious, dramatic] Of course, it was only the first of the catastrophes brought upon by the Spell.
+[neutral, matter-of-fact] But as far as Sunny was concerned, none of it had anything to do with him — not until a few days ago, that is, when he first started having trouble with staying awake.
+[neutral, matter-of-fact] For an average person, being chosen by the Spell was as much of a risk as an opportunity.
+[anxious, serious] Kids learned survival skills and fighting techniques in school, on the off chance of being infected.
+[neutral, informative] Well-to-do families hired private tutors to train their children in all sorts of martial arts.
+[curious, informative] Those from the Awakened clans even had access to powerful legacies, wielding inherited Memories and Echoes in their first visit to the Dream Realm.
+[neutral, informative] The richer your family was, the better your chances of surviving and becoming an Awakened were.
+[sad, serious] But for Sunny, who had no family to speak of and spent most of his time scrounging for food instead of going to school, being chosen by the Spell presented no opportunity at all.
+[fearful, serious] To him, it was basically a death sentence.
+[neutral, matter-of-fact] A few minutes later, Sunny was yawning while several policemen were busy putting him in restraints.
+[confused, descriptive] Soon he was fastened into a bulky chair that looked like a weird mix between a hospital bed and a torture device.
+[neutral, descriptive] The room they were in was situated in the basement of the police station, with thick armored walls and a formidable-looking vault door.
+[fearful, serious] Other officers were standing near the walls, with automatic rifles in their hands and grim expressions on their faces.
+[neutral, matter-of-fact] Sunny did not particularly care about them.
+[neutral, matter-of-fact] The only thing he could think about was how much he wanted to sleep.
+[neutral, matter-of-fact] Finally, the vault door opened [door opening], and a gray-haired policeman walked in.
+[sad, descriptive] He had a seasoned face and stern eyes, looking like someone who had seen a lot of terrible things in his life.
+[neutral, matter-of-fact] After checking the restraints, the policeman glanced quickly on his wristwatch and then turned to Sunny:
+[neutral, matter-of-fact] What's your name, kid?
+[anxious, descriptive] Sunny blinked a few times, trying to concentrate, then shifted uncomfortably.
+[sad, serious] Sunless.
+[curious, matter-of-fact] Sunless? That's a strange name.
+[confused, matter-of-fact] Sunny tried to shrug, but found himself unable to move.
