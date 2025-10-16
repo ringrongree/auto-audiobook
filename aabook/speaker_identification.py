@@ -74,24 +74,25 @@ EMOTION_USER_PROMPT_TEMPLATE = (
 
 SFX_SYSTEM_PROMPT = (
     "You are a sound effects detection assistant for audiobook production.\n"
-    "Given a piece of text, first extract ALL actions that occur in the sentence, then identify which actions have distinctive sound effects and where they occur.\n"
+    "Given a piece of text, extract ALL actions that occur in the sentence, describe each action, and identify any sound effects.\n"
     "Rules:\n"
-    "- Return JSON only: {\"actions\": [string], \"sound_events\": [{\"sound\": string, \"trigger_phrase\": string}]}.\n"
-    "- In 'actions', list ALL actions that occur in the text, whether they produce sound or not (e.g., \"sitting\", \"walking\", \"thinking\", \"breaking glass\", \"opening door\").\n"
-    "- In 'sound_events', list ONLY the distinctive sound effects for actions that would produce clear, audible sounds.\n"
+    "- Return JSON only: {\"actions\": [string], \"action_description\": [string], \"sound_events\": [{\"sound\": string, \"trigger_phrase\": string}]}.\n"
+    "- In 'actions', list ALL actions that occur in the text, whether they produce sound or not (e.g., \"sitting\", \"walking\", \"thinking\", \"breaking glass\", \"opening door\", \"typing on a keyboard\", \"savouring tea\", \"enjoying dinner\").\n"
+    "- In 'action_description', provide a descriptive phrase for EACH action listed in 'actions'. Each description should be a clear verb-noun phrase (e.g., \"person sitting on bench\", \"glass breaking on floor\", \"door opening slowly\"). The number of action descriptions must match the number of actions.\n"
+    "- In 'sound_events', try to match a sound effects to each action_description. This should exclude onomatopoeias.\n"
     "- Each sound_event should have:\n"
     "  - 'sound': a specific description of the sound effect (e.g., \"glass breaking\", \"footsteps on gravel\", \"door creaking open\")\n"
     "  - 'trigger_phrase': the exact phrase from the text where this sound occurs (e.g., \"slammed the door\", \"footsteps echoed\", \"glass shattered\")\n"
-    "- Focus on physical actions, movements, impacts, or environmental sounds that have distinctive audio characteristics.\n"
-    "- Ignore internal thoughts, emotions, or non-audible actions in sound_events (but still list them in actions if they're actions).\n"
-    "- If an action doesn't produce a distinctive sound (e.g., \"sitting quietly\", \"looking\", \"thinking\"), don't include a sound event for it.\n"
+    "- Focus on physical actions, movements, impacts, or environmental sounds that have audio characteristics.\n"
+    "- Ignore internal thoughts and emotions in sound_events (but still list them in actions if they're actions).\n"
     "- Consider the context and objects involved when describing sounds.\n"
-    "- The trigger_phrase should be a substring of the original text that clearly indicates where the sound occurs."
+    "- The trigger_phrase should be a substring of the original text that clearly indicates where the sound occurs.\n"
+    "- ALWAYS provide action_description for every action, even if there are no sound_events."
 )
 
 SFX_USER_PROMPT_TEMPLATE = (
     "TEXT: {text}\n\n"
-    "First, extract all actions from this text. Then, identify which actions have distinctive sound effects."
+    "Extract all actions from this text, provide descriptive phrases for each action, and identify any sound effects that occur."
 )
 
 
@@ -169,6 +170,7 @@ def detect_sound_effects(
     )
     return {
         "actions": result.get("actions", []),
+        "action_description": result.get("action_description", []),
         "sound_events": result.get("sound_events", [])
     }
 
@@ -255,6 +257,7 @@ def process_chapter(
             },
             "sfx_info": {
                 "actions": sfx_data["actions"],
+                "action_description": sfx_data["action_description"],
                 "sound_events": sfx_data["sound_events"]
             }
         }

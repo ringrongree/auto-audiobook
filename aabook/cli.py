@@ -143,14 +143,14 @@ def main() -> int:
         return 0
     
     # Process the file
-    print(f"\n[1/5] Loading input: {input_file}")
+    print(f"\n[1/6] Loading input: {input_file}")
     with open(input_file, "r", encoding="utf-8") as f:
         chapter_text = f.read()
     num_chars = len(chapter_text)
     num_lines = chapter_text.count("\n") + (1 if chapter_text else 0)
     print(f"      Loaded {num_chars} characters across {num_lines} lines.")
 
-    print(f"[2/5] Initializing LLM client (model: {model})")
+    print(f"[2/6] Initializing LLM client (model: {model})")
     t0 = time.perf_counter()
     try:
         llm = LLMClient(model=model)
@@ -160,7 +160,7 @@ def main() -> int:
         print("      Make sure your OPENAI_API_KEY is set in .env file")
         return 3
 
-    print("[3/5] Extracting present characters...")
+    print("[3/6] Extracting present characters...")
     t1 = time.perf_counter()
     try:
         characters = extract_present_characters(chapter_text, llm)
@@ -178,7 +178,7 @@ def main() -> int:
         time.sleep(1)
     print("   ✓ Ready to continue!                    ")
 
-    print("\n[4/5] Labeling lines with speakers...")
+    print("\n[4/6] Labeling lines with speakers...")
     t2 = time.perf_counter()
     try:
         lines = label_lines_with_speakers(chapter_text, characters, llm)
@@ -195,7 +195,7 @@ def main() -> int:
         time.sleep(1)
     print("   ✓ Ready to continue!                    ")
 
-    print("\n[5/7] Detecting emotions and tones...")
+    print("\n[5/6] Detecting emotions, tones, sfx...")
     t3 = time.perf_counter()
     try:
         # Process each line to add emotion and tone detection
@@ -236,6 +236,7 @@ def main() -> int:
                 },
                 "sfx_info": {
                     "actions": sfx_data["actions"],
+                    "action_description": sfx_data["action_description"],
                     "sound_events": sfx_data["sound_events"]
                 }
             }
@@ -256,7 +257,7 @@ def main() -> int:
 
     result = {"characters": characters, "sentences": processed_sentences}
 
-    print("[7/7] Writing output")
+    print("[6/6] Writing output")
     try:
         os.makedirs(os.path.dirname(output_file) or ".", exist_ok=True)
         with open(output_file, "w", encoding="utf-8") as f:
