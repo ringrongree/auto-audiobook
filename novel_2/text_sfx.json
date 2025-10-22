@@ -1,384 +1,166 @@
 {
   "characters": [
     "Sunny",
+    "broad-shouldered slave",
+    "fellow slave",
     "Narrator"
   ],
   "sentences": {
     "sentence_0001": {
-      "sentence": "A frail-looking young man with pale skin and dark circles under his eyes was sitting on a rusty bench across from the police station.",
-      "formatted_sentence": "[sad, descriptive] A frail-looking young man with pale skin and dark circles under his eyes was sitting on a rusty bench across from the police station.",
+      "sentence": "As soon as Sunny finished that thought, all hell broke loose.",
+      "formatted_sentence": "[surprised, dramatic] As soon as Sunny finished that thought [pencil tapping], all hell broke loose [explosion or loud crash].",
       "speaker_info": {
         "speaker": "Narrator",
-        "emotion": "sad",
-        "tone": "descriptive"
+        "emotion": "surprised",
+        "tone": "dramatic"
       },
       "sfx_info": {
         "actions": [
-          "sitting"
+          "finished thought",
+          "broke loose"
         ],
         "action_description": [
-          "young man sitting on rusty bench"
+          "Sunny finishing a thought",
+          "chaos erupting"
         ],
-        "sound_events": []
+        "sound_events": [
+          {
+            "sound": "pencil tapping",
+            "trigger_phrase": "finished that thought"
+          },
+          {
+            "sound": "explosion or loud crash",
+            "trigger_phrase": "all hell broke loose"
+          }
+        ]
       }
     },
     "sentence_0002": {
-      "sentence": "He was cradling a cup of coffee in his hands — not the cheap synthetic type slum rats like him had access to, but the real deal.",
-      "formatted_sentence": "[content, descriptive] He was cradling a cup of coffee in his hands — not the cheap synthetic type slum rats like him had access to, but the real deal.",
+      "sentence": "The creature moved, slashing its claws in his general direction.",
+      "formatted_sentence": "[fearful, dramatic] The creature moved [soft footsteps on ground], slashing its claws [claws slicing through air] in his general direction.",
       "speaker_info": {
         "speaker": "Narrator",
-        "emotion": "content",
-        "tone": "descriptive"
+        "emotion": "fearful",
+        "tone": "dramatic"
       },
       "sfx_info": {
         "actions": [
-          "cradling"
+          "moved",
+          "slashing"
         ],
         "action_description": [
-          "person cradling a cup of coffee"
+          "creature moving swiftly",
+          "creature slashing claws"
         ],
-        "sound_events": []
+        "sound_events": [
+          {
+            "sound": "soft footsteps on ground",
+            "trigger_phrase": "The creature moved"
+          },
+          {
+            "sound": "claws slicing through air",
+            "trigger_phrase": "slashing its claws"
+          }
+        ]
       }
     },
     "sentence_0003": {
-      "sentence": "This cup of plant-based coffee, usually available only to higher rank citizens, had cost most of his savings.",
-      "formatted_sentence": "[anxious, serious] This cup of plant-based coffee, usually available only to higher rank citizens, had cost most of his savings.",
-      "speaker_info": {
-        "speaker": "Narrator",
-        "emotion": "anxious",
-        "tone": "serious"
-      },
-      "sfx_info": {
-        "actions": [
-          "cost"
-        ],
-        "action_description": [
-          "cup costing savings"
-        ],
-        "sound_events": []
-      }
-    },
-    "sentence_0004": {
-      "sentence": "But on this particular day, Sunny decided to pamper himself.",
-      "formatted_sentence": "[content, narrative] But on this particular day, Sunny decided to pamper himself.",
-      "speaker_info": {
-        "speaker": "Narrator",
-        "emotion": "content",
-        "tone": "narrative"
-      },
-      "sfx_info": {
-        "actions": [
-          "decided",
-          "pampering"
-        ],
-        "action_description": [
-          "Sunny making a decision",
-          "Sunny pampering himself"
-        ],
-        "sound_events": []
-      }
-    },
-    "sentence_0005": {
-      "sentence": "After all, his life was coming to an end.",
-      "formatted_sentence": "[sad, serious] After all, his life was coming to an end.",
-      "speaker_info": {
-        "speaker": "Narrator",
-        "emotion": "sad",
-        "tone": "serious"
-      },
-      "sfx_info": {
-        "actions": [
-          "coming to an end"
-        ],
-        "action_description": [
-          "life approaching conclusion"
-        ],
-        "sound_events": []
-      }
-    },
-    "sentence_0006": {
-      "sentence": "Enjoying the warmth of the luxurious drink, he raised the cup and savored the aroma.",
-      "formatted_sentence": "[content, descriptive] Enjoying the warmth of the luxurious drink, he raised the cup and savored the aroma.",
-      "speaker_info": {
-        "speaker": "Narrator",
-        "emotion": "content",
-        "tone": "descriptive"
-      },
-      "sfx_info": {
-        "actions": [
-          "enjoying",
-          "raising",
-          "savoring"
-        ],
-        "action_description": [
-          "person enjoying warmth of drink",
-          "person raising cup",
-          "person savoring aroma"
-        ],
-        "sound_events": []
-      }
-    },
-    "sentence_0007": {
-      "sentence": "Then, tentatively, he took a small sip… and immediately grimaced.",
-      "formatted_sentence": "[disgusted, narrative] Then, tentatively, he took a small sip… and immediately grimaced.",
-      "speaker_info": {
-        "speaker": "Narrator",
-        "emotion": "disgusted",
-        "tone": "narrative"
-      },
-      "sfx_info": {
-        "actions": [
-          "taking a sip",
-          "grimacing"
-        ],
-        "action_description": [
-          "person taking a small sip",
-          "person grimacing"
-        ],
-        "sound_events": []
-      }
-    },
-    "sentence_0008": {
-      "sentence": "Ah! So bitter!",
-      "formatted_sentence": "[disgusted, exclamatory] Ah! So bitter!",
-      "speaker_info": {
-        "speaker": "Sunny",
-        "emotion": "disgusted",
-        "tone": "exclamatory"
-      },
-      "sfx_info": {
-        "actions": [
-          "expressing bitterness"
-        ],
-        "action_description": [
-          "person expressing bitterness"
-        ],
-        "sound_events": []
-      }
-    },
-    "sentence_0009": {
-      "sentence": "Giving the cup of coffee an intense look, Sunny sighed and forced himself to drink some more.",
-      "formatted_sentence": "[frustrated, matter-of-fact] Giving the cup of coffee an intense look, Sunny sighed and forced himself to drink some more.",
-      "speaker_info": {
-        "speaker": "Narrator",
-        "emotion": "frustrated",
-        "tone": "matter-of-fact"
-      },
-      "sfx_info": {
-        "actions": [
-          "giving",
-          "looking",
-          "sighing",
-          "forcing",
-          "drinking"
-        ],
-        "action_description": [
-          "person giving cup of coffee an intense look",
-          "person looking at cup of coffee intensely",
-          "person sighing deeply",
-          "person forcing himself to drink",
-          "person drinking coffee"
-        ],
-        "sound_events": []
-      }
-    },
-    "sentence_0010": {
-      "sentence": "Bitter or not, he was determined to get his money's worth — taste buds be damned.",
-      "formatted_sentence": "[determined, matter-of-fact] Bitter or not, he was determined to get his money's worth — taste buds be damned.",
+      "sentence": "But Sunny was one step ahead: without wasting a single moment, he jumped sideways — as far as the chain allowed — conveniently placing the broad-shouldered slave between himself and the monster.",
+      "formatted_sentence": "[determined, dramatic] But Sunny was one step ahead: without wasting a single moment, he jumped sideways [footsteps landing on ground] — as far as the chain allowed — conveniently placing the broad-shouldered slave [body shifting] between himself and the monster.",
       "speaker_info": {
         "speaker": "Narrator",
         "emotion": "determined",
-        "tone": "matter-of-fact"
+        "tone": "dramatic"
       },
       "sfx_info": {
         "actions": [
-          "determined",
-          "getting money's worth"
+          "jumped sideways",
+          "placing"
         ],
         "action_description": [
-          "person being determined",
-          "person trying to get money's worth"
-        ],
-        "sound_events": []
-      }
-    },
-    "sentence_0011": {
-      "sentence": "I should have bought a piece of real meat instead. Who knew actual coffee is so disgusting? Well. It's going to keep me awake, at least.",
-      "formatted_sentence": "[disgusted, matter-of-fact] I should have bought a piece of real meat instead. Who knew actual coffee is so disgusting? Well. It's going to keep me awake, at least.",
-      "speaker_info": {
-        "speaker": "Sunny",
-        "emotion": "disgusted",
-        "tone": "matter-of-fact"
-      },
-      "sfx_info": {
-        "actions": [
-          "thinking",
-          "buying",
-          "drinking",
-          "keeping awake"
-        ],
-        "action_description": [
-          "person thinking about choices",
-          "person buying meat",
-          "person drinking coffee",
-          "person staying awake"
-        ],
-        "sound_events": []
-      }
-    },
-    "sentence_0012": {
-      "sentence": "He stared into the distance, dozing off, and then slapped himself in the face to wake up.",
-      "formatted_sentence": "[neutral, matter-of-fact] He stared into the distance, dozing off, and then slapped himself in the face [slap on skin] to wake up.",
-      "speaker_info": {
-        "speaker": "Narrator",
-        "emotion": "neutral",
-        "tone": "matter-of-fact"
-      },
-      "sfx_info": {
-        "actions": [
-          "staring",
-          "dozing off",
-          "slapping"
-        ],
-        "action_description": [
-          "person staring into the distance",
-          "person dozing off",
-          "person slapping himself in the face"
+          "Sunny jumping sideways",
+          "broad-shouldered slave being placed"
         ],
         "sound_events": [
           {
-            "sound": "slap on skin",
-            "trigger_phrase": "slapped himself in the face"
+            "sound": "footsteps landing on ground",
+            "trigger_phrase": "jumped sideways"
+          },
+          {
+            "sound": "body shifting",
+            "trigger_phrase": "placing the broad-shouldered slave"
           }
         ]
       }
     },
-    "sentence_0013": {
-      "sentence": "Tsk. What a rip-off.",
-      "formatted_sentence": "[angry, critical] Tsk. [tsk sound] What a rip-off.",
+    "sentence_0004": {
+      "sentence": "His quick reaction saved his life, as those sharp claws, each as long as a sword, sliced through the broad-shouldered man a fraction of a second later and sent streams of blood flying through the air.",
+      "formatted_sentence": "[fearful, dramatic] His quick reaction saved his life, as those sharp claws, each as long as a sword, sliced through the broad-shouldered man [whoosh of claws cutting] a fraction of a second later and sent streams of blood flying [splash of blood] through the air.",
       "speaker_info": {
-        "speaker": "Sunny",
-        "emotion": "angry",
-        "tone": "critical"
+        "speaker": "Narrator",
+        "emotion": "fearful",
+        "tone": "dramatic"
       },
       "sfx_info": {
         "actions": [
-          "tsk"
+          "reacting quickly",
+          "slicing",
+          "sending blood flying"
         ],
         "action_description": [
-          "person making a tsk sound"
+          "person reacting swiftly",
+          "claws slicing through flesh",
+          "blood spraying through the air"
         ],
         "sound_events": [
           {
-            "sound": "tsk sound",
-            "trigger_phrase": "Tsk."
+            "sound": "whoosh of claws cutting",
+            "trigger_phrase": "sliced through the broad-shouldered man"
+          },
+          {
+            "sound": "splash of blood",
+            "trigger_phrase": "sent streams of blood flying"
           }
         ]
       }
     },
-    "sentence_0014": {
-      "sentence": "Shaking his head and cursing, Sunny finished the coffee and stood up.",
-      "formatted_sentence": "[frustrated, narrative] Shaking his head and cursing, Sunny finished the coffee and stood up.",
-      "speaker_info": {
-        "speaker": "Narrator",
-        "emotion": "frustrated",
-        "tone": "narrative"
-      },
-      "sfx_info": {
-        "actions": [
-          "shaking head",
-          "cursing",
-          "finished coffee",
-          "stood up"
-        ],
-        "action_description": [
-          "person shaking head",
-          "person cursing",
-          "person finishing coffee",
-          "person standing up"
-        ],
-        "sound_events": []
-      }
-    },
-    "sentence_0015": {
-      "sentence": "Rich people living in this part of the city were rushing past the small park on their way to work, staring at him with strange expressions.",
-      "formatted_sentence": "[anxious, observational] Rich people living in this part of the city were rushing past the small park on their way to work, staring at him with strange expressions.",
-      "speaker_info": {
-        "speaker": "Narrator",
-        "emotion": "anxious",
-        "tone": "observational"
-      },
-      "sfx_info": {
-        "actions": [
-          "rushing",
-          "staring"
-        ],
-        "action_description": [
-          "people rushing past the park",
-          "people staring with strange expressions"
-        ],
-        "sound_events": []
-      }
-    },
-    "sentence_0016": {
-      "sentence": "Looking haggard in his cheap clothes and from the lack of sleep, unhealthily thin and pale, Sunny was indeed out of his place here.",
-      "formatted_sentence": "[sad, descriptive] Looking haggard in his cheap clothes and from the lack of sleep, unhealthily thin and pale, Sunny was indeed out of his place here.",
+    "sentence_0005": {
+      "sentence": "Drenched in the hot liquid, Sunny hit the ground, and his fellow slave — now simply a corpse — fell on him from above.",
+      "formatted_sentence": "[sad, dramatic] Drenched in the hot liquid [liquid splashing], Sunny hit the ground [thud of body hitting ground], and his fellow slave — now simply a corpse [silence of a lifeless body] — fell on him from above [heavy thump as corpse falls].",
       "speaker_info": {
         "speaker": "Narrator",
         "emotion": "sad",
-        "tone": "descriptive"
+        "tone": "dramatic"
       },
       "sfx_info": {
         "actions": [
-          "looking",
-          "being"
+          "drenched",
+          "hitting the ground",
+          "falling",
+          "being a corpse"
         ],
         "action_description": [
-          "person looking haggard",
-          "person being out of place"
-        ],
-        "sound_events": []
-      }
-    },
-    "sentence_0017": {
-      "sentence": "Also, everyone seemed so tall.",
-      "formatted_sentence": "[neutral, matter-of-fact] Also, everyone seemed so tall.",
-      "speaker_info": {
-        "speaker": "Narrator",
-        "emotion": "neutral",
-        "tone": "matter-of-fact"
-      },
-      "sfx_info": {
-        "actions": [
-          "seemed"
-        ],
-        "action_description": [
-          "everyone appearing tall"
-        ],
-        "sound_events": []
-      }
-    },
-    "sentence_0018": {
-      "sentence": "Watching them with a bit of envy, he tossed the cup into a garbage bin.",
-      "formatted_sentence": "[jealous, matter-of-fact] Watching them with a bit of envy, he tossed the cup into a garbage bin [cup hitting the bottom of the bin].",
-      "speaker_info": {
-        "speaker": "Narrator",
-        "emotion": "jealous",
-        "tone": "matter-of-fact"
-      },
-      "sfx_info": {
-        "actions": [
-          "watching",
-          "tossing"
-        ],
-        "action_description": [
-          "person watching with envy",
-          "cup being tossed into garbage bin"
+          "liquid soaking into skin",
+          "body hitting the ground",
+          "corpse falling from above",
+          "body lying still"
         ],
         "sound_events": [
           {
-            "sound": "cup hitting the bottom of the bin",
-            "trigger_phrase": "tossed the cup into a garbage bin"
+            "sound": "liquid splashing",
+            "trigger_phrase": "drenched in the hot liquid"
+          },
+          {
+            "sound": "thud of body hitting ground",
+            "trigger_phrase": "hit the ground"
+          },
+          {
+            "sound": "heavy thump as corpse falls",
+            "trigger_phrase": "fell on him from above"
+          },
+          {
+            "sound": "silence of a lifeless body",
+            "trigger_phrase": "simply a corpse"
           }
         ]
       }
